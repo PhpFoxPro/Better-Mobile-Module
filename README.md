@@ -1,4 +1,4 @@
 # Better-Mobile-Module
 
-PhpFox.pro better module developing.
+PhpFox.pro better mobile module developing.
 
