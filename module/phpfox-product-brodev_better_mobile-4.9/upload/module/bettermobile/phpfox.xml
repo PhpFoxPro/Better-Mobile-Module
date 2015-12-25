@@ -1,0 +1,84 @@
+<module>
+	<data>
+		<module_id>bettermobile</module_id>
+		<product_id>brodev_better_mobile</product_id>
+		<is_core>0</is_core>
+		<is_active>1</is_active>
+		<is_menu>1</is_menu>
+		<menu><![CDATA[a:1:{s:49:"bettermobile.admin_menu_manager_background_images";a:1:{s:3:"url";a:2:{i:0;s:12:"bettermobile";i:1;s:10:"background";}}}]]></menu>
+		<phrase_var_name>module_bettermobile</phrase_var_name>
+	</data>
+	<settings>
+		<setting group="" module_id="bettermobile" is_hidden="0" type="string" var_name="background_color" phrase_var_name="setting_background_color" ordering="1" version_id="3.4.0">43C6FF</setting>
+		<setting group="" module_id="bettermobile" is_hidden="0" type="boolean" var_name="italiano" phrase_var_name="setting_italiano" ordering="1" version_id="3.4.0">0</setting>
+		<setting group="" module_id="bettermobile" is_hidden="0" type="boolean" var_name="set_background_is_image" phrase_var_name="setting_set_background_is_image" ordering="1" version_id="3.4.0">1</setting>
+		<setting group="" module_id="bettermobile" is_hidden="0" type="boolean" var_name="is_background_random" phrase_var_name="setting_is_background_random" ordering="1" version_id="3.4.0">0</setting>
+		<setting group="" module_id="bettermobile" is_hidden="0" type="string" var_name="site_name_color" phrase_var_name="setting_site_name_color" ordering="1" version_id="3.4.0">000000</setting>
+		<setting group="" module_id="bettermobile" is_hidden="0" type="array" var_name="mobile_ad_id" phrase_var_name="setting_mobile_ad_id" ordering="1" version_id="3.5.0beta1" />
+		<setting group="" module_id="bettermobile" is_hidden="0" type="boolean" var_name="enable_share_other" phrase_var_name="setting_enable_share_other" ordering="1" version_id="3.5.0beta1">1</setting>
+		<setting group="" module_id="bettermobile" is_hidden="0" type="boolean" var_name="show_main_menu" phrase_var_name="setting_show_main_menu" ordering="1" version_id="3.5.0rc1">1</setting>
+		<setting group="" module_id="bettermobile" is_hidden="0" type="boolean" var_name="change_sub_domain" phrase_var_name="setting_change_sub_domain" ordering="1" version_id="3.6.0">0</setting>
+		<setting group="" module_id="bettermobile" is_hidden="0" type="string" var_name="android_app_id" phrase_var_name="setting_android_app_id" ordering="2" version_id="3.7.4" />
+		<setting group="" module_id="bettermobile" is_hidden="0" type="string" var_name="itunes_id" phrase_var_name="setting_itunes_id" ordering="2" version_id="3.7.4" />
+		<setting group="" module_id="bettermobile" is_hidden="0" type="string" var_name="app_name" phrase_var_name="setting_app_name" ordering="2" version_id="3.7.4" />
+		<setting group="" module_id="bettermobile" is_hidden="0" type="boolean" var_name="image_radius" phrase_var_name="setting_image_radius" ordering="1" version_id="3.7.5">1</setting>
+		<setting group="" module_id="bettermobile" is_hidden="0" type="boolean" var_name="must_login" phrase_var_name="setting_must_login" ordering="1" version_id="3.7.5">1</setting>
+		<setting group="" module_id="bettermobile" is_hidden="0" type="string" var_name="link_itunes" phrase_var_name="setting_link_itunes" ordering="1" version_id="3.7.7" />
+	</settings>
+	<phrases>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="module_bettermobile" added="1353050223">Better mobile theme</phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="show_more_results" added="1353988712">Show more results</phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="members_total" added="1356064176">Members ({total})</phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="likes_total_like" added="1356079069">Likes ({total_like})</phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="unjoin" added="1356081173">Unjoin</phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="welcome_to_phpfox_pro" added="1356324971">Welcome to Phpfox.Pro</phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="setting_background_color" added="1356334966"><![CDATA[<title>Set Home Page Backgroup Color</title><info>Set Home Page Backgroup Color</info>]]></phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="setting_italiano" added="1356337340"><![CDATA[<title>Italiano language support</title><info>Italiano language support</info>]]></phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="setting_set_background_is_image" added="1356490139"><![CDATA[<title>Choose Background is Color or Image</title><info>Choose Type of Background is Color or Image
+True is Image</info>]]></phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="admin_menu_manager_login_background" added="1356493515">Manager Background Images</phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="manager_background_images" added="1356494287">Manager Background Images</phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="add_image" added="1356494402">Add Image</phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="title" added="1356494427">Title</phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="image" added="1356494453">Image</phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="active" added="1356494495">Active</phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="submit" added="1356494536">Submit</phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="id" added="1356508051">Id</phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="action" added="1356508079">Action</phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="edit" added="1356508199">Edit</phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="delete" added="1356508207">Delete</phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="add_new_image_successfully" added="1356508437">Add New Image Successfully.</phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="delete_image_successfully" added="1356508506">Delete Image Successfully.</phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="item_not_found" added="1356508760">Item Not Found.</phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="update_successfully" added="1356508979">Update Successfully.</phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="edit_image" added="1356509321">Edit Image</phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="import_background_sample" added="1356513673">Import Background Sample</phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="import_sample_background_successfully" added="1356513840">Import Sample Background Successfully.</phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="you_should_import_one_time" added="1356513939">You Should Import One Time Only.</phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="setting_is_background_random" added="1356516212"><![CDATA[<title>Set Background is Random?</title><info>Set Background Image is Random?
+True is Random</info>]]></phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="setting_site_name_color" added="1356663087"><![CDATA[<title>Set Color For Site Name</title><info>Set Color For Site Name</info>]]></phrase>
+		<phrase module_id="bettermobile" version_id="3.4.0" var_name="admin_menu_import_background_sample" added="1356666790">Import Background Sample</phrase>
+		<phrase module_id="bettermobile" version_id="3.5.0beta1" var_name="setting_mobile_ad_id" added="1359435132"><![CDATA[
+            <title>Define Ad&#039;s Id for Mobile</title><info>Please find the ID of the Ads here Admin Cp >> Modules >> Ad >> Manage Campaigns.
+</info>]]></phrase>
+		<phrase module_id="bettermobile" version_id="3.5.0beta1" var_name="other" added="1359542394">Other</phrase>
+		<phrase module_id="bettermobile" version_id="3.5.0beta1" var_name="admin_menu_manager_background_images" added="1359948505">Manager Background Images</phrase>
+		<phrase module_id="bettermobile" version_id="3.5.0beta1" var_name="setting_enable_share_other" added="1359966021"><![CDATA[<title>Share Other ?</title><info>Enable Share Other In Feed</info>]]></phrase>
+		<phrase module_id="bettermobile" version_id="3.5.0rc1" var_name="setting_show_main_menu" added="1361779958"><![CDATA[<title>Allow Guest Can Click Main Menu</title><info>Allow Guest Can Click Main Menu</info>]]></phrase>
+		<phrase module_id="bettermobile" version_id="3.5.0rc1" var_name="choose_location" added="1362123451">Choose Location</phrase>
+		<phrase module_id="bettermobile" version_id="3.6.0" var_name="setting_change_sub_domain" added="1380084823"><![CDATA[<title>Change sub domain when load mobile</title><info>When visit via mobile, change sub domain!</info>]]></phrase>
+		<phrase module_id="bettermobile" version_id="3.7.3" var_name="forgot_pass" added="1386899811">Forget password?</phrase>
+		<phrase module_id="bettermobile" version_id="3.7.3" var_name="remember" added="1386899864">Remember login</phrase>
+		<phrase module_id="bettermobile" version_id="3.7.3" var_name="account_setting" added="1387332636">Account setting</phrase>
+		<phrase module_id="bettermobile" version_id="3.7.3" var_name="edit_profile" added="1387332697">Edit profile</phrase>
+		<phrase module_id="bettermobile" version_id="3.7.4" var_name="setting_android_app_id" added="1390309763"><![CDATA[<title>Set android app id</title><info>Set android app id</info>]]></phrase>
+		<phrase module_id="bettermobile" version_id="3.7.4" var_name="setting_itunes_id" added="1390309846"><![CDATA[<title>Set iOs id</title><info>Set iOs id</info>]]></phrase>
+		<phrase module_id="bettermobile" version_id="3.7.4" var_name="setting_app_name" added="1394440783"><![CDATA[<title>Set app&#039;s name</title><info>Set app&#039;s name</info>]]></phrase>
+		<phrase module_id="bettermobile" version_id="3.7.5" var_name="setting_image_radius" added="1396347010"><![CDATA[<title>Profile image is circle</title><info>Profile image is circle</info>]]></phrase>
+		<phrase module_id="bettermobile" version_id="3.7.5" var_name="setting_must_login" added="1399362144"><![CDATA[<title>Show login as mobile homepage</title><info>Show login as mobile homepage</info>]]></phrase>
+		<phrase module_id="bettermobile" version_id="3.7.5" var_name="login_facebook" added="1401347426">Login with Facebook</phrase>
+		<phrase module_id="bettermobile" version_id="3.7.5" var_name="login_user" added="1401352679">I already have an account</phrase>
+		<phrase module_id="bettermobile" version_id="3.7.7" var_name="setting_link_itunes" added="1401418239"><![CDATA[<title>Link app at App Store</title><info>Set link iOs app</info>]]></phrase>
+	</phrases>
+</module>

@@ -1,0 +1,10 @@
+<theme>
+	<name>Better Mobile - Phpfox.Pro</name>
+	<folder>bettermobile</folder>
+	<created>1353033239</created>
+	<creator>Phpfox.Pro</creator>
+	<website>http://www.phpfox.pro/modules/better-mobile</website>
+	<version>4.9</version>
+	<total_column>2</total_column>
+	<parent>default</parent>
+</theme>

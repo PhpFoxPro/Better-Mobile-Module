@@ -1,0 +1,20 @@
+<module>
+	<data>
+		<module_id>brodev</module_id>
+		<product_id>brodev_tools</product_id>
+		<is_core>0</is_core>
+		<is_active>1</is_active>
+		<is_menu>0</is_menu>
+		<menu />
+		<phrase_var_name>module_brodev</phrase_var_name>
+	</data>
+	<plugins>
+		<plugin module_id="brodev" product_id="brodev_tools" call_name="init" title="Brodev Tools :: Init"><![CDATA[require_once(PHPFOX_DIR. 'module/brodev/include/static/init.php');]]></plugin>
+	</plugins>
+	<components>
+		<component module_id="brodev" component="ajax" m_connection="" module="brodev" is_controller="0" is_block="1" is_active="1" />
+	</components>
+	<phrases>
+		<phrase module_id="brodev" version_id="2.0.5" var_name="module_brodev" added="1289294187">Brodev</phrase>
+	</phrases>
+</module>

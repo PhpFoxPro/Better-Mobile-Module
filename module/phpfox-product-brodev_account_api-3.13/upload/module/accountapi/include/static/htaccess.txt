@@ -1,0 +1,8 @@
+# URL Rewrite
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	# Image Access Protection
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)\/(.*)\/(.*)\.(.*)$ image.php?height=$1&width=$2&file=$3&ext=$4
+</IfModule>

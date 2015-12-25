@@ -1,0 +1,17 @@
+<product>
+	<data>
+		<product_id>brodev_tools</product_id>
+		<is_core>0</is_core>
+		<title>Brodev Tools</title>
+		<description>Tools for products from Brodev.com</description>
+		<version>1.5</version>
+		<latest_version></latest_version>
+		<last_check>1376983556</last_check>
+		<is_active>1</is_active>
+		<url>http://www.phpfox.pro</url>
+		<url_version_check />
+	</data>
+	<modules>
+		<module_id>brodev</module_id>
+	</modules>
+</product>

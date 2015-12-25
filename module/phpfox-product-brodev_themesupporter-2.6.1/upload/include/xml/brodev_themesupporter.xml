@@ -1,0 +1,154 @@
+<product>
+	<data>
+		<product_id>brodev_themesupporter</product_id>
+		<is_core>0</is_core>
+		<title>Theme Supporter - Phpfox.Pro</title>
+		<description><![CDATA[Provide libraries, helps for Phpfox.Pro 's themes]]></description>
+		<version>2.6.1</version>
+		<latest_version></latest_version>
+		<last_check>1395283478</last_check>
+		<is_active>1</is_active>
+		<url>http://www.phpfox.pro/themes</url>
+		<url_version_check />
+	</data>
+	<installs>
+		<install>
+			<version>1.0</version>
+			<install_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '1.0';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '1.0';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>1.2</version>
+			<install_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '1.2';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '1.2';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>1.3</version>
+			<install_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '1.3';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '1.3';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>1.4</version>
+			<install_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '1.4';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '1.4';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>1.5</version>
+			<install_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '1.5';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '1.5';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>1.6</version>
+			<install_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '1.6';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '1.6';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>1.7</version>
+			<install_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '1.7';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '1.7';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>1.8</version>
+			<install_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '1.8';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '1.8';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>1.9</version>
+			<install_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '1.9';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '1.9';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>2.0</version>
+			<install_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '2.0';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '2.0';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>2.1</version>
+			<install_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '2.1';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '2.1';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>2.2</version>
+			<install_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '2.2';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '2.2';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>2.3</version>
+			<install_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '2.3';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '2.3';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>2.4</version>
+			<install_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '2.4';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '2.4';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>2.5</version>
+			<install_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '2.5';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('themesupporter');
+$sVersion = '2.5';
+require PHPFOX_DIR . 'module/themesupporter/include/static/installer.php';]]></uninstall_code>
+		</install>
+	</installs>
+	<modules>
+		<module_id>themesupporter</module_id>
+	</modules>
+</product>

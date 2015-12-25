@@ -1,0 +1,1 @@
+{$aActions.2.total_votes_combined|number_format}

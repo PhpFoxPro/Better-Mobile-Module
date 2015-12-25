@@ -1,0 +1,211 @@
+<module>
+	<data>
+		<module_id>accountapi</module_id>
+		<product_id>brodev_account_api</product_id>
+		<is_core>0</is_core>
+		<is_active>1</is_active>
+		<is_menu>1</is_menu>
+		<menu><![CDATA[a:3:{s:40:"accountapi.admin_menu_manage_certificate";a:1:{s:3:"url";a:2:{i:0;s:10:"accountapi";i:1;s:11:"certificate";}}s:44:"accountapi.admin_menu_send_push_notification";a:1:{s:3:"url";a:2:{i:0;s:10:"accountapi";i:1;s:4:"push";}}s:46:"accountapi.admin_menu_manage_push_notification";a:1:{s:3:"url";a:3:{i:0;s:10:"accountapi";i:1;s:6:"manage";i:2;s:4:"push";}}}]]></menu>
+		<phrase_var_name>module_accountapi</phrase_var_name>
+	</data>
+	<settings>
+		<setting group="" module_id="accountapi" is_hidden="0" type="string" var_name="app_id" phrase_var_name="setting_app_id" ordering="1" version_id="3.2.0">40M3HLHAZ1394F07CB3SMVB3IQ8ALFHF</setting>
+		<setting group="" module_id="accountapi" is_hidden="0" type="integer" var_name="notification_interval_check" phrase_var_name="setting_notification_interval_check" ordering="2" version_id="3.2.0">60</setting>
+		<setting group="" module_id="accountapi" is_hidden="0" type="integer" var_name="image_life_time" phrase_var_name="setting_image_life_time" ordering="3" version_id="3.4.0">3</setting>
+		<setting group="" module_id="accountapi" is_hidden="0" type="array" var_name="long_languages" phrase_var_name="setting_long_languages" ordering="4" version_id="3.4.0" />
+		<setting group="" module_id="accountapi" is_hidden="0" type="integer" var_name="contact_query_limit" phrase_var_name="setting_contact_query_limit" ordering="5" version_id="3.4.0">10</setting>
+		<setting group="" module_id="accountapi" is_hidden="0" type="integer" var_name="max_upload_photo_size" phrase_var_name="setting_max_upload_photo_size" ordering="6" version_id="3.4.0">1024</setting>
+		<setting group="" module_id="accountapi" is_hidden="0" type="string" var_name="native_app_key" phrase_var_name="setting_native_app_key" ordering="7" version_id="3.4.0">kckjz24YQB7OwCQ4sKIlyjZgbtJY351S</setting>
+		<setting group="" module_id="accountapi" is_hidden="0" type="string" var_name="admob_publish_key" phrase_var_name="setting_admob_publish_key" ordering="8" version_id="3.4.0">a14fe33641bffb2</setting>
+		<setting group="" module_id="accountapi" is_hidden="0" type="integer" var_name="how_many_friends_to_import" phrase_var_name="setting_how_many_friends_to_import" ordering="9" version_id="3.4.0">100</setting>
+		<setting group="" module_id="accountapi" is_hidden="0" type="boolean" var_name="enable_push_notification" phrase_var_name="setting_enable_push_notification" ordering="11" version_id="3.4.0">1</setting>
+		<setting group="" module_id="accountapi" is_hidden="0" type="string" var_name="gcm_api_key" phrase_var_name="setting_gcm_api_key" ordering="12" version_id="3.4.0">AIzaSyCIMO4pOOpvAFnnNSN0yX5scxILEba1e7I</setting>
+		<setting group="" module_id="accountapi" is_hidden="0" type="integer" var_name="time_wait_push_notification" phrase_var_name="setting_time_wait_push_notification" ordering="13" version_id="3.6.0">500000</setting>
+		<setting group="" module_id="accountapi" is_hidden="0" type="integer" var_name="music_page_size" phrase_var_name="setting_music_page_size" ordering="14" version_id="3.6.0">20</setting>
+		<setting group="" module_id="accountapi" is_hidden="0" type="integer" var_name="blog_page_size" phrase_var_name="setting_blog_page_size" ordering="15" version_id="3.6.0">20</setting>
+		<setting group="" module_id="accountapi" is_hidden="0" type="integer" var_name="video_page_size" phrase_var_name="setting_video_page_size" ordering="16" version_id="3.6.0">20</setting>
+		<setting group="" module_id="accountapi" is_hidden="0" type="integer" var_name="marketplace_page_size" phrase_var_name="setting_marketplace_page_size" ordering="17" version_id="3.6.0">20</setting>
+		<setting group="" module_id="accountapi" is_hidden="0" type="integer" var_name="event_page_size" phrase_var_name="setting_event_page_size" ordering="18" version_id="3.6.0">20</setting>
+		<setting group="" module_id="accountapi" is_hidden="0" type="boolean" var_name="enable_rate" phrase_var_name="setting_enable_rate" ordering="19" version_id="3.6.0">0</setting>
+		<setting group="" module_id="accountapi" is_hidden="0" type="string" var_name="pass_phrase_apns" phrase_var_name="setting_pass_phrase_apns" ordering="20" version_id="3.7.4">123123</setting>
+		<setting group="" module_id="accountapi" is_hidden="0" type="string" var_name="apns_url" phrase_var_name="setting_apns_url" ordering="21" version_id="3.7.4">gateway.sandbox.push.apple.com:2195</setting>
+		<setting group="" module_id="accountapi" is_hidden="0" type="drop" var_name="choose_color" phrase_var_name="setting_choose_color" ordering="1" version_id="3.7.5"><![CDATA[a:2:{s:7:"default";s:4:"Blue";s:6:"values";a:7:{i:0;s:4:"Blue";i:1;s:11:"Dark Violet";i:2;s:3:"Red";i:3;s:4:"Pink";i:4;s:5:"Brown";i:5;s:5:"Green";i:6;s:6:"Violet";}}]]></setting>
+	</settings>
+	<components>
+		<component module_id="accountapi" component="report" m_connection="accountapi.report" module="accountapi" is_controller="1" is_block="0" is_active="1" />
+	</components>
+	<phrases>
+		<phrase module_id="accountapi" version_id="3.2.0" var_name="module_accountapi" added="1339147061">This module help client to get API token key via an url</phrase>
+		<phrase module_id="accountapi" version_id="3.2.0" var_name="missing_parameters" added="1339168940">Missing parameters</phrase>
+		<phrase module_id="accountapi" version_id="3.2.0" var_name="username_invalid" added="1339168989">This username does not exist</phrase>
+		<phrase module_id="accountapi" version_id="3.2.0" var_name="password_invalid" added="1339169013">Invalid password</phrase>
+		<phrase module_id="accountapi" version_id="3.2.0" var_name="setting_app_id" added="1345196548"><![CDATA[<title>App API</title><info>API ID</info>]]></phrase>
+		<phrase module_id="accountapi" version_id="3.2.0" var_name="to_name" added="1349508918">To: {name}</phrase>
+		<phrase module_id="accountapi" version_id="3.2.0" var_name="take_photo" added="1349510424">Take Photo</phrase>
+		<phrase module_id="accountapi" version_id="3.2.0" var_name="choose_from_library" added="1349510479">Choose From Library</phrase>
+		<phrase module_id="accountapi" version_id="3.2.0" var_name="camera" added="1349510532">Camera</phrase>
+		<phrase module_id="accountapi" version_id="3.2.0" var_name="no_camera_detected" added="1349510575">No Camera detected!</phrase>
+		<phrase module_id="accountapi" version_id="3.2.0" var_name="unexpected_error" added="1349510657">Unexpected error!</phrase>
+		<phrase module_id="accountapi" version_id="3.2.0" var_name="what_s_on_your_mind" added="1349510756"><![CDATA[What&#039;s on your mind?]]></phrase>
+		<phrase module_id="accountapi" version_id="3.2.0" var_name="cannot_upload" added="1349511696">Cannot upload!</phrase>
+		<phrase module_id="accountapi" version_id="3.2.0" var_name="from_name" added="1349513117">From: {name}</phrase>
+		<phrase module_id="accountapi" version_id="3.2.0" var_name="1_second_ago" added="1349514822">1 second ago</phrase>
+		<phrase module_id="accountapi" version_id="3.2.0" var_name="re" added="1349516442">Re:</phrase>
+		<phrase module_id="accountapi" version_id="3.2.0" var_name="pages" added="1350012771">Pages</phrase>
+		<phrase module_id="accountapi" version_id="3.2.0" var_name="be_the_first_to_like_this" added="1352105741">Be the first to like this.</phrase>
+		<phrase module_id="accountapi" version_id="3.2.0" var_name="setting_notification_interval_check" added="1354265657"><![CDATA[<title>Notification Interval Check Timeout</title><info>This setting controls how often will the notification check on the state of an request call. The value is in seconds, so it defaults to 1 minute.</info>]]></phrase>
+		<phrase module_id="accountapi" version_id="3.2.0" var_name="no_info_to_display" added="1354618059">No info to display.</phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="please_enter_your_email" added="1355455966">Please enter your email</phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="you_have_registered_successfully" added="1355457737">You have registered successfully!</phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="setting_image_life_time" added="1355820777"><![CDATA[<title>Image cache life time?</title><info>Some images be scaled and cached before loaded by mobile app. This setting decides the life time (day) of image cache.</info>]]></phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="pull_down_to_update" added="1356084840">Pull down to update</phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="typing_a_subject" added="1356084852">Typing a subject</phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="release_to_update" added="1356087026">Release to update</phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="reloading" added="1356089534">Reloading</phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="setting_long_languages" added="1356350735"><![CDATA[<title>Long languages</title><info>Long languages</info>]]></phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="user_setting_accountapi_show_ad" added="1357186166" />
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="setting_contact_query_limit" added="1358131083"><![CDATA[<title>Contact Query Limit</title><info>Contact Query Limit</info>]]></phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="choose_who_you_d_like_to_add_as_friends" added="1359088936"><![CDATA[Choose who you&#039;d like to add as friends.]]></phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="contact_find_friends_info" added="1359089486">Upload contacts from your device and store them on servers where they may be used to help others search for or connect with people or to generate suggestions for you or others. Contact info from your contact list and message folders may be uploaded. Professional contacts may be imported but you should send invites to personal contacts only. Please send invites only to friends who will be glad to get them.</phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="contacts_found" added="1359089823">contacts found</phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="add_all" added="1359089898">Add all</phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="invite_all" added="1359093684">Invite All</phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="syncing" added="1359095631">Syncing</phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="add_profile_picture_and_other_info_to_contacts_contacts_will_be_synced_from_now_on" added="1359095802">Add profile picture and other info to Contacts.
+Contacts will be synced from now on.</phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="you_have_just_reported_this_item" added="1357527035">You have just reported this item.</phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="setting_max_upload_photo_size" added="1358334494"><![CDATA[<title>Max upload photo size (pixel)</title><info>Max upload photo size from mobile</info>]]></phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="setting_native_app_key" added="1358764382"><![CDATA[<title>Native APP key</title><info>APP key for cloud services.</info>]]></phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="login_background_image" added="1359170411">Login Background Image</phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="setting_admob_publish_key" added="1359361250"><![CDATA[<title>Admob key</title><info>Key for Admob</info>]]></phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="setting_how_many_friends_to_import" added="1362033752"><![CDATA[<title>How many friends to import</title><info>How many friends to import</info>]]></phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="please_fill_the_form" added="1362534269">Please fill the form</phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="setting_choose_color" added="1362644615"><![CDATA[<title>Choose Color</title><info>Color for social app</info>]]></phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="you_can_only_upload_a_jpg_file" added="1362801194">You can only upload a JPG file.</phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="setting_enable_push_notification" added="1363603081"><![CDATA[<title>Enable Push Notification</title><info>Set TRUE to enable push notification service.</info>]]></phrase>
+		<phrase module_id="accountapi" version_id="3.4.0" var_name="setting_gcm_api_key" added="1374837799"><![CDATA[<title>Google Cloud Messaging</title><info>Key of Google Cloud Messaging</info>]]></phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="setting_time_wait_push_notification" added="1376995163"><![CDATA[<title>Time wait push notification</title><info>Time to wait for the push notification.</info>]]></phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="take_or_choose_picture" added="1379750869">Please take new photo or choose from gallery</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="take_new_photo" added="1380195323">Take New Photo</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="choose_from_gallery" added="1380195367">Choose From Gallery</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="setting_music_page_size" added="1380970111"><![CDATA[<title>How many songs in page</title><info>How many songs in page</info>]]></phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="setting_blog_page_size" added="1382434373"><![CDATA[<title>How many blogs in page</title><info>How many blogs in page</info>]]></phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="setting_video_page_size" added="1383639241"><![CDATA[<title>How many videos in page</title><info>How many videos in page</info>]]></phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="select_10_files" added="1381836278">Please only select 4 files</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="favourite" added="1382879378">Favourite</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="no_sub_forum" added="1383908139">No Sub Forum</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="setting_marketplace_page_size" added="1385094890"><![CDATA[<title>How many listing in page</title><info>How many listing in page</info>]]></phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="invite" added="1385519574">Invite</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="invite_successfully" added="1385519593">Invite successfully</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="user_setting_can_see_ads" added="1385611810">Member can see ads on app</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="sync" added="1385950047">sync</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="sync_contact_successfully" added="1385950144">Sync contact successfully!</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="no_new_messages" added="1386322360">No new messages</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="failed_to_block_contact" added="1386322390">Failed to block contact</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="block" added="1386322441">Block</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="delete" added="1386322463">Delete</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="contact_is_blocked" added="1386322521">Contact is blocked</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="unblock" added="1386322542">Unblock</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="failed_to_unblock_contact" added="1386322612">Failed to unblock contact</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="failed_to_delete_conversation" added="1386322635">Failed to delete conversation</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="seen" added="1386322836">Seen</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="conversation" added="1386326561">Conversation</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="setting_event_page_size" added="1386833612"><![CDATA[<title>How many songs in page</title><info>How many songs in page</info>]]></phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="touch_here_to_view_all_photo" added="1387420414">Touch here to view all photo</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="empty_view_pull_down_up_to_add_items" added="1387424126">Empty View, Pull Down/Up to Add Items</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="love_this_app" added="1387510391">Love this app?</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="rate_content" added="1387510455">Give us a good review to have more fun</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="rate" added="1387510474">Rate</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="remind_me_later" added="1387510494">Remind me later</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="no_thanks" added="1387510513">No, thanks</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="setting_enable_rate" added="1387512591"><![CDATA[<title>Rate app?</title><info>Enable rate app</info>]]></phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="member" added="1387883751">Member</phrase>
+		<phrase module_id="accountapi" version_id="3.6.0" var_name="info" added="1387883762">Info</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="you_sent_a_sticker" added="1388485930">You sent a sticker</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="login_id" added="1389349627">Email</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="post_status" added="1389424588">Post Status</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="connecting" added="1389426611">Connecting</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="setting_pass_phrase_apns" added="1389667479"><![CDATA[<title>Pass Phrase APNS</title><info>Your private key&#039;s passphrase for APNS</info>]]></phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="setting_apns_url" added="1389668394"><![CDATA[<title>Apple push notification Service</title><info>For Developer:
+gateway.sandbox.push.apple.com:2195
+For Publisher:
+gateway.push.apple.com:2195</info>]]></phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="admin_menu_manage_certificate" added="1389671564">Manage Certificate</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="certificate_manager" added="1389672103">Certificate Manager</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="certificate_file" added="1389672419">Apple Push Notification Service certificate file</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="you_can_only_update_a_pem_file" added="1389672917">You can only update a PEM file.</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="no_pem_file" added="1389674354">No PEM file</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="pem_file_is_uploaded" added="1389948286">Pem File is uploaded.</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="please_insert_text" added="1390274876">Please insert text</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="posting" added="1390274975">Posting</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="please_wait" added="1390275131">Please wait</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="uploading" added="1390275169">Uploading</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="please_pull_to_refresh_your_newsfeed" added="1390275405">Please pull to refresh your newsfeed</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="edit_profile_picture" added="1390276187">Edit Profile Picture</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="error_while_capturing_image" added="1390276317">Error while capturing image</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="upload_error" added="1390276509">Upload error</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="unknown_path" added="1390276534">Unknown path</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="internal_error" added="1390276562">Internal error</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="select_an_album" added="1390277707">Select an Album</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="create_a_new_photo_album" added="1390277745">Create a New Photo Album</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="send" added="1390278001">Send</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="write_a_message" added="1390278019">Write a message</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="provide_a_title_for_your_thread" added="1390278116">Provide a title for your thread</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="provide_some_text" added="1390278148">Provide some text.</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="social" added="1390302032">Social</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="back_label" added="1390302135">Black</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="done" added="1393037343">Done</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="sign_in_with_facebook" added="1393037694">Sign in with Facebook</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="privacy_settings_update_fail" added="1390494707">Privacy settings update fail.</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="cancel" added="1391570527">Cancel</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="admin_menu_send_push_notification" added="1393059018">Send Push Notification</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="send_push_notification" added="1393059284">Send Push Notification</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="content" added="1393059753">Push notification message</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="link_to" added="1393059782">Link to</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="provide_a_content_for_your_notification" added="1393061288">Provide a content for your notification.</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="notification_sent_successfully" added="1393064780">Notification sent successfully</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="no_user" added="1393311329">No user</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="manage_push_notification" added="1393559698">Manage Push Notification</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="notification_for_likes" added="1393560852"><![CDATA[Notification for "Likes"]]></phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="new_comments" added="1393561050">New Comments</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="new_friend" added="1393561091">New Friend</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="friend_request" added="1393561111">Friend Request</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="new_messages" added="1393561149">New Messages</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="admin_menu_manage_push_notification" added="1393571048">Manage Push Notification</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="notification_settings" added="1393573003">Notification Settings</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="notification_settings_successfully_updated" added="1393822932">Notification settings successfully updated.</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="notification_settings_update_failed" added="1393822982">Notification settings update failed</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="mobile_notification_settings" added="1393838848">Mobile Notification Settings</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="save" added="1393839120">Save</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="no_sub_categories" added="1394387451">No sub-categories</phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="you_don_t_have_any_album" added="1394684917"><![CDATA[You don&#039;t have any album]]></phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="you_haven_t_choosen_any_photo_yet" added="1394694740"><![CDATA[You haven&#039;t choosen any photo yet]]></phrase>
+		<phrase module_id="accountapi" version_id="3.7.4" var_name="please_pull_to_refresh_your_list" added="1394764559">Please pull to refresh your list</phrase>
+		<phrase module_id="accountapi" version_id="3.7.5" var_name="rsvp_has_been_updated_successfully" added="1395895534">Rsvp has been updated successfully</phrase>
+		<phrase module_id="accountapi" version_id="3.7.5" var_name="could_not_update_rsvp" added="1395895717">Could not update RSVP</phrase>
+		<phrase module_id="accountapi" version_id="3.7.5" var_name="setting_blue" added="1396666156"><![CDATA[<title>Choose Color</title><info>Choose color for social app</info>]]></phrase>
+		<phrase module_id="accountapi" version_id="3.7.5" var_name="connecting_to_facebook_please_hold" added="1397098288">Connecting to Facebook. Please hold...</phrase>
+		<phrase module_id="accountapi" version_id="3.7.5" var_name="please_fill_email_password" added="1397098597"><![CDATA[Please fill email & password]]></phrase>
+		<phrase module_id="accountapi" version_id="3.7.5" var_name="log_in_with_facebook_failed" added="1397098692">Log in With Facebook failed!</phrase>
+		<phrase module_id="accountapi" version_id="3.7.5" var_name="full_name_shared_a_few_photos" added="1397099164">{full_name} shared a few photos</phrase>
+		<phrase module_id="accountapi" version_id="3.7.5" var_name="full_name_shared_a_few_photos_in_this_album_album_name" added="1397101912"><![CDATA[{full_name} shared a few photos in this album "{album_name}"]]></phrase>
+		<phrase module_id="accountapi" version_id="3.7.5" var_name="try_again" added="1397207659">Try again</phrase>
+		<phrase module_id="accountapi" version_id="3.7.5" var_name="no_internet_title" added="1397208212">Uh oh, there was a problem</phrase>
+		<phrase module_id="accountapi" version_id="3.7.5" var_name="no_internet_content" added="1397208226">The internet connection appears to be offline</phrase>
+		<phrase module_id="accountapi" version_id="3.7.5" var_name="error_loading_new_feeds" added="1397444939">Error loading new feeds</phrase>
+		<phrase module_id="accountapi" version_id="3.7.6" var_name="blue" added="1399605930">Blue</phrase>
+		<phrase module_id="accountapi" version_id="3.7.6" var_name="red" added="1399605952">Red</phrase>
+		<phrase module_id="accountapi" version_id="3.7.6" var_name="pink" added="1399605965">Pink</phrase>
+		<phrase module_id="accountapi" version_id="3.7.6" var_name="brown" added="1399605979">Brown</phrase>
+		<phrase module_id="accountapi" version_id="3.7.6" var_name="green" added="1399605991">Green</phrase>
+		<phrase module_id="accountapi" version_id="3.7.6" var_name="violet" added="1399606005">Violet</phrase>
+		<phrase module_id="accountapi" version_id="3.7.6" var_name="admin_menu_manage" added="1399606750">Manage</phrase>
+		<phrase module_id="accountapi" version_id="3.7.7" var_name="no_pages" added="1400641396">No pages</phrase>
+		<phrase module_id="accountapi" version_id="3.7.7" var_name="check_in" added="1401176701">Check in</phrase>
+		<phrase module_id="accountapi" version_id="3.7.7" var_name="i_already_have_an_account" added="1402478485">I already have an account</phrase>
+	</phrases>
+	<user_group_settings>
+		<setting is_admin_setting="0" module_id="accountapi" type="boolean" admin="0" user="0" guest="0" staff="0" module="accountapi" ordering="0">accountapi_show_ad</setting>
+		<setting is_admin_setting="0" module_id="accountapi" type="boolean" admin="0" user="0" guest="0" staff="0" module="accountapi" ordering="0">can_see_ads</setting>
+	</user_group_settings>
+</module>

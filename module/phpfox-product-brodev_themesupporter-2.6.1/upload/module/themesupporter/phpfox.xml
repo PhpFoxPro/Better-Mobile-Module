@@ -1,0 +1,150 @@
+<module>
+	<data>
+		<module_id>themesupporter</module_id>
+		<product_id>brodev_themesupporter</product_id>
+		<is_core>0</is_core>
+		<is_active>1</is_active>
+		<is_menu>1</is_menu>
+		<menu><![CDATA[a:2:{s:38:"themesupporter.admin_menu_introduction";a:1:{s:3:"url";a:2:{i:0;s:14:"themesupporter";i:1;s:12:"introduction";}}s:39:"themesupporter.admin_menu_mobilte_theme";a:1:{s:3:"url";a:2:{i:0;s:14:"themesupporter";i:1;s:11:"mobiletheme";}}}]]></menu>
+		<phrase_var_name>module_themesupporter</phrase_var_name>
+	</data>
+	<settings>
+		<setting group="" module_id="themesupporter" is_hidden="0" type="drop" var_name="block_video_type" phrase_var_name="setting_block_video_type" ordering="3" version_id="3.2.0"><![CDATA[a:2:{s:7:"default";s:13:"Random Videos";s:6:"values";a:3:{i:0;s:13:"Random Videos";i:1;s:24:"Recently Uploaded Videos";i:2;s:18:"Most Viewed Videos";}}]]></setting>
+		<setting group="" module_id="themesupporter" is_hidden="0" type="integer" var_name="block_video_number" phrase_var_name="setting_block_video_number" ordering="2" version_id="3.2.0">5</setting>
+		<setting group="" module_id="themesupporter" is_hidden="0" type="integer" var_name="block_event_number" phrase_var_name="setting_block_event_number" ordering="4" version_id="3.2.0">5</setting>
+		<setting group="" module_id="themesupporter" is_hidden="0" type="drop" var_name="block_blog_type" phrase_var_name="setting_block_blog_type" ordering="6" version_id="3.2.0"><![CDATA[a:2:{s:7:"default";s:17:"Most Viewed blogs";s:6:"values";a:2:{i:0;s:17:"Most Viewed blogs";i:1;s:12:"Recent blogs";}}]]></setting>
+		<setting group="" module_id="themesupporter" is_hidden="0" type="integer" var_name="block_blog_number" phrase_var_name="setting_block_blog_number" ordering="7" version_id="3.2.0">2</setting>
+		<setting group="" module_id="themesupporter" is_hidden="0" type="integer" var_name="block_blog_detail_length" phrase_var_name="setting_block_blog_detail_length" ordering="8" version_id="3.2.0">50</setting>
+		<setting group="" module_id="themesupporter" is_hidden="0" type="integer" var_name="block_feed_number" phrase_var_name="setting_block_feed_number" ordering="1" version_id="3.2.0">22</setting>
+		<setting group="" module_id="themesupporter" is_hidden="0" type="integer" var_name="block_pages_number" phrase_var_name="setting_block_pages_number" ordering="15" version_id="3.2.0">5</setting>
+		<setting group="" module_id="themesupporter" is_hidden="0" type="drop" var_name="block_pages_type" phrase_var_name="setting_block_pages_type" ordering="16" version_id="3.2.0"><![CDATA[a:2:{s:7:"default";s:6:"recent";s:6:"values";a:2:{i:0;s:6:"recent";i:1;s:9:"most like";}}]]></setting>
+		<setting group="" module_id="themesupporter" is_hidden="0" type="boolean" var_name="block_pages_view_all" phrase_var_name="setting_block_pages_view_all" ordering="17" version_id="3.2.0">1</setting>
+		<setting group="" module_id="themesupporter" is_hidden="0" type="drop" var_name="block_event_type" phrase_var_name="setting_block_event_type" ordering="5" version_id="3.2.0"><![CDATA[a:2:{s:7:"default";s:3:"All";s:6:"values";a:5:{i:0;s:3:"All";i:1;s:5:"Today";i:2;s:4:"Week";i:3;s:5:"Month";i:4;s:4:"Most";}}]]></setting>
+		<setting group="" module_id="themesupporter" is_hidden="0" type="boolean" var_name="block_member_view_more" phrase_var_name="setting_block_member_view_more" ordering="9" version_id="3.2.0">1</setting>
+		<setting group="" module_id="themesupporter" is_hidden="0" type="integer" var_name="block_member_number" phrase_var_name="setting_block_member_number" ordering="10" version_id="3.2.0">5</setting>
+		<setting group="" module_id="themesupporter" is_hidden="0" type="boolean" var_name="block_member_show_name" phrase_var_name="setting_block_member_show_name" ordering="11" version_id="3.2.0">1</setting>
+		<setting group="" module_id="themesupporter" is_hidden="0" type="drop" var_name="block_member_type" phrase_var_name="setting_block_member_type" ordering="12" version_id="3.2.0"><![CDATA[a:2:{s:7:"default";s:3:"Top";s:6:"values";a:5:{i:0;s:3:"Top";i:1;s:7:"Popular";i:2;s:6:"Recent";i:3;s:6:"Online";i:4;s:6:"Latest";}}]]></setting>
+		<setting group="" module_id="themesupporter" is_hidden="0" type="integer" var_name="number_images_to_display" phrase_var_name="setting_number_images_to_display" ordering="13" version_id="3.3.0">8</setting>
+		<setting group="" module_id="themesupporter" is_hidden="0" type="drop" var_name="type_of_photo" phrase_var_name="setting_type_of_photo" ordering="14" version_id="3.3.0"><![CDATA[a:2:{s:7:"default";s:3:"All";s:6:"values";a:3:{i:0;s:3:"All";i:1;s:4:"Most";i:2;s:8:"Featured";}}]]></setting>
+		<setting group="" module_id="themesupporter" is_hidden="0" type="string" var_name="default_mobile_style" phrase_var_name="setting_default_mobile_style" ordering="18" version_id="3.3.0">1</setting>
+		<setting group="" module_id="themesupporter" is_hidden="0" type="drop" var_name="marketplace_type" phrase_var_name="setting_marketplace_type" ordering="19" version_id="3.4.0"><![CDATA[a:2:{s:7:"default";s:10:"Most Liked";s:6:"values";a:3:{i:0;s:10:"Most Liked";i:1;s:18:"Recent Marketplace";i:2;s:20:"Featured Marketplace";}}]]></setting>
+		<setting group="" module_id="themesupporter" is_hidden="0" type="integer" var_name="marketplace_number" phrase_var_name="setting_marketplace_number" ordering="20" version_id="3.4.0">4</setting>
+	</settings>
+	<blocks>
+		<block type_id="0" m_connection="themesupporter.index" module_id="themesupporter" component="introduction" location="2" is_active="0" ordering="1" disallow_access="" can_move="0">
+			<title>introduction</title>
+			<source_code />
+			<source_parsed />
+		</block>
+		<block type_id="0" m_connection="themesupporter.index" module_id="themesupporter" component="video" location="2" is_active="0" ordering="2" disallow_access="" can_move="0">
+			<title></title>
+			<source_code />
+			<source_parsed />
+		</block>
+		<block type_id="0" m_connection="themesupporter.index" module_id="themesupporter" component="event" location="2" is_active="0" ordering="3" disallow_access="" can_move="0">
+			<title>event</title>
+			<source_code />
+			<source_parsed />
+		</block>
+		<block type_id="0" m_connection="themesupporter.index" module_id="themesupporter" component="blog" location="2" is_active="0" ordering="4" disallow_access="" can_move="0">
+			<title>blog</title>
+			<source_code />
+			<source_parsed />
+		</block>
+		<block type_id="0" m_connection="themesupporter.index" module_id="themesupporter" component="feed" location="2" is_active="1" ordering="5" disallow_access="" can_move="0">
+			<title>feed</title>
+			<source_code />
+			<source_parsed />
+		</block>
+		<block type_id="0" m_connection="themesupporter.index" module_id="themesupporter" component="pages" location="2" is_active="0" ordering="6" disallow_access="" can_move="0">
+			<title>pages</title>
+			<source_code />
+			<source_parsed />
+		</block>
+		<block type_id="0" m_connection="themesupporter.index" module_id="themesupporter" component="member" location="2" is_active="0" ordering="7" disallow_access="" can_move="0">
+			<title>member</title>
+			<source_code />
+			<source_parsed />
+		</block>
+	</blocks>
+	<components>
+		<component module_id="themesupporter" component="themesupporter" m_connection="themesupporter.index" module="themesupporter" is_controller="1" is_block="0" is_active="1" />
+		<component module_id="themesupporter" component="introduction" m_connection="" module="themesupporter" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="themesupporter" component="video" m_connection="" module="themesupporter" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="themesupporter" component="event" m_connection="" module="themesupporter" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="themesupporter" component="blog" m_connection="" module="themesupporter" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="themesupporter" component="feed" m_connection="" module="themesupporter" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="themesupporter" component="pages" m_connection="" module="themesupporter" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="themesupporter" component="member" m_connection="" module="themesupporter" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="themesupporter" component="image" m_connection="" module="themesupporter" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="themesupporter" component="marketplace" m_connection="" module="themesupporter" is_controller="0" is_block="1" is_active="1" />
+	</components>
+	<phrases>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="admin_menu_introduction" added="1345888611">Manage Introductions</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="module_themesupporter" added="1345888611">Theme Supporter</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="introduction" added="1346036808">Manage Introductions</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="are_you_sure_delete_it" added="1346053205">Are you sure delete it?</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="update_order" added="1346053850">Update Order</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="introduction_order_update_successfully" added="1346054393">Introduction order successfully updated.</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="introduction_delete_successfully" added="1346055122">Introduction delete successfully</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="add_introduction" added="1346055544">Add Introduction</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="title" added="1346055568">Title</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="detail" added="1346055775">Detail</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="submit" added="1346055797">Submit</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="button" added="1346055945">Button</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="link" added="1346055954">Link</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="image" added="1346056257">Image</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="introduction_add_successfully" added="1346056434">Introduction add successfully</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="introduction_not_found" added="1346057819">Introduction not found</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="edit_introduction" added="1346058383">Edit Introduction</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="update_introduction_successfully" added="1346058527">Update introduction successfully</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="show" added="1346060068">Show</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="yes" added="1346060075">Yes</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="no" added="1346060083">No</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="html_supported" added="1346063707">HTML Supported</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="delete_this_image" added="1346064103">Delete this image</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="setting_block_video_type" added="1346119623"><![CDATA[<title>Type of video</title><info>Choose type of video show in block</info>]]></phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="setting_block_video_number" added="1346119696"><![CDATA[<title>Number of video</title><info>Set number video to show in block</info>]]></phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="block_video_title" added="1346119787">Title of video block</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="setting_block_event_type" added="1346125930"><![CDATA[<title>Event&#039;s type want to show</title><info>Choose type of event show in block</info>]]></phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="setting_block_event_number" added="1346125964"><![CDATA[<title>Number of event</title><info>Set number events show in block</info>]]></phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="block_event_title" added="1346137585">Title of event block</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="setting_block_blog_type" added="1346139359"><![CDATA[<title>Select type of blog want to show</title><info>Choose type of blog want to show in block</info>]]></phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="setting_block_blog_number" added="1346139399"><![CDATA[<title>Set number blog to show</title><info>Set number blog show in block</info>]]></phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="setting_block_blog_detail_length" added="1346139516"><![CDATA[<title>set length of blog detail</title><info>Length of blog details to display</info>]]></phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="block_blog_title" added="1346139567">Title of blog block</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="setting_block_feed_number" added="1346143695"><![CDATA[<title>Number of activities to display</title><info>set Number of activities to display</info>]]></phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="block_feed_title" added="1346148303">Title 67 of feed block</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="setting_block_pages_number" added="1346205975"><![CDATA[<title>Number of pages to display</title><info>set Number of pages to display</info>]]></phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="setting_block_pages_type" added="1346206029"><![CDATA[<title>Order of displaying</title><info>Order of displaying</info>]]></phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="setting_block_pages_view_all" added="1346206060"><![CDATA[<title>Display &#8220;View all&#8221; link or not</title><info>Display &#8220;View all&#8221; link or not</info>]]></phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="block_pages_title" added="1346206108">Title of pages block</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="view_all" added="1346216007">View All</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="setting_block_member_view_more" added="1346224708"><![CDATA[<title>Show &#8220;View more members&#8221; or not</title><info>Show &#8220;View more members&#8221; or not</info>]]></phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="setting_block_member_number" added="1346224768"><![CDATA[<title>Choose number of member to display</title><info>Choose number of member to display</info>]]></phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="setting_block_member_show_name" added="1346224797"><![CDATA[<title>Enable member name or not</title><info>Enable member name or not</info>]]></phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="setting_block_member_type" added="1346224854"><![CDATA[<title>Choose type of member to display</title><info>Choose type of member to display</info>]]></phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="block_member_title" added="1346224878">Title of member 4 block</phrase>
+		<phrase module_id="themesupporter" version_id="3.2.0" var_name="block_member_view_more" added="1346224893">View More</phrase>
+		<phrase module_id="themesupporter" version_id="3.3.0" var_name="setting_number_images_to_display" added="1352428814"><![CDATA[<title>Number of photo to display</title><info>Number of photo to display</info>]]></phrase>
+		<phrase module_id="themesupporter" version_id="3.3.0" var_name="setting_type_of_photo" added="1352429279"><![CDATA[<title>Type of photos to display</title><info>Type of photos to display</info>]]></phrase>
+		<phrase module_id="themesupporter" version_id="3.3.0" var_name="setting_default_mobile_style" added="1353121669"><![CDATA[<title>Default Mobile Theme</title><info>Default Mobile Theme</info>]]></phrase>
+		<phrase module_id="themesupporter" version_id="3.3.0" var_name="mobile_theme" added="1353125563">Mobile Theme</phrase>
+		<phrase module_id="themesupporter" version_id="3.3.0" var_name="admin_menu_mobilte_theme" added="1353126725">Mobile Theme</phrase>
+		<phrase module_id="themesupporter" version_id="3.4.0" var_name="setting_marketplace_type" added="1358843637"><![CDATA[<title>Type to display of marketplace</title><info>chose type to display of list marketplace</info>]]></phrase>
+		<phrase module_id="themesupporter" version_id="3.4.0" var_name="setting_marketplace_number" added="1358843826"><![CDATA[<title>Number of marketplace to display</title><info>set Number of marketplace to display</info>]]></phrase>
+		<phrase module_id="themesupporter" version_id="3.7.2" var_name="edit" added="1385001868">Edit</phrase>
+		<phrase module_id="themesupporter" version_id="3.7.2" var_name="delete" added="1385001890">Delete</phrase>
+		<phrase module_id="themesupporter" version_id="3.7.5" var_name="all" added="1395229895">All</phrase>
+		<phrase module_id="themesupporter" version_id="3.7.5" var_name="today" added="1395229911">Today</phrase>
+		<phrase module_id="themesupporter" version_id="3.7.5" var_name="month" added="1395229926">Month</phrase>
+		<phrase module_id="themesupporter" version_id="3.7.5" var_name="week" added="1395229931">Week</phrase>
+		<phrase module_id="themesupporter" version_id="3.7.5" var_name="most" added="1395230322">Most</phrase>
+		<phrase module_id="themesupporter" version_id="3.7.5" var_name="top" added="1395230337">Top</phrase>
+		<phrase module_id="themesupporter" version_id="3.7.5" var_name="recent" added="1395230354">Recent</phrase>
+		<phrase module_id="themesupporter" version_id="3.7.5" var_name="latest" added="1395230362">Latest</phrase>
+		<phrase module_id="themesupporter" version_id="3.7.5" var_name="online" added="1395230375">Online</phrase>
+		<phrase module_id="themesupporter" version_id="3.7.5" var_name="popular" added="1395230402">Popular</phrase>
+		<phrase module_id="themesupporter" version_id="3.7.5" var_name="featured" added="1395230579">Featured</phrase>
+	</phrases>
+</module>

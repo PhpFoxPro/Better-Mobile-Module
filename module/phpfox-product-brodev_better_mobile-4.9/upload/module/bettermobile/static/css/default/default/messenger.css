@@ -1,0 +1,12 @@
+#better_messenger {
+    position: fixed;
+    right: 0px;
+    overflow-x: hidden;
+    width: 270px;
+    display: none;
+    top: 0;
+    background: #FFF;
+}
+#better_messenger .friend_holder{
+    margin: 5px;
+}

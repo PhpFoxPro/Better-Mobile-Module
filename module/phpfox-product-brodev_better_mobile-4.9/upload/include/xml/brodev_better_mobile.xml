@@ -1,0 +1,253 @@
+<product>
+	<data>
+		<product_id>brodev_better_mobile</product_id>
+		<is_core>0</is_core>
+		<title>Better Mobile - Phpfox.Pro</title>
+		<description>Mobile web done right for Phpfox by Phpfox.Pro</description>
+		<version>4.9</version>
+		<latest_version></latest_version>
+		<last_check>1402046130</last_check>
+		<is_active>1</is_active>
+		<url>http://www.phpfox.pro/modules/better-mobile</url>
+		<url_version_check>http://www.phpfox.pro/modules/better-mobile/version</url_version_check>
+	</data>
+	<installs>
+		<install>
+			<version>1.1</version>
+			<install_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '1.1';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '1.1';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>1.2</version>
+			<install_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '1.2';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '1.2';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>1.3</version>
+			<install_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '1.3';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '1.3';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>1.4</version>
+			<install_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '1.4';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '1.4';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>1.5</version>
+			<install_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '1.5';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '1.5';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>1.6</version>
+			<install_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '1.6';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '1.6';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>1.7</version>
+			<install_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '1.7';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '1.7';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>2.0</version>
+			<install_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '2.0';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '2.0';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>2.1</version>
+			<install_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '2.1';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '2.1';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>2.2</version>
+			<install_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '2.2';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '2.2';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>2.3</version>
+			<install_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '2.3';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '2.3';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>2.4</version>
+			<install_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '2.4';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '2.4';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>2.5</version>
+			<install_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '2.5';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '2.5';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>2.6</version>
+			<install_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '2.6';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '2.6';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>2.7</version>
+			<install_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '2.7';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '2.7';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>2.8</version>
+			<install_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '2.8';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '2.8';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>2.9</version>
+			<install_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '2.9';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '2.9';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>3.0</version>
+			<install_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '3.0';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '3.0';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>3.1</version>
+			<install_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '3.1';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '3.1';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>3.2</version>
+			<install_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '3.2';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '3.2';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>3.3</version>
+			<install_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '3.3';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '3.3';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>3.5</version>
+			<install_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '3.5';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '3.5';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>3.6</version>
+			<install_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '3.6';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '3.6';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>4.0.2</version>
+			<install_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '4.0.2';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '4.0.2';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>4.1</version>
+			<install_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '4.1';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '4.1';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>4.9</version>
+			<install_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '4.9';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('bettermobile');
+$sVersion = '4.9';
+require PHPFOX_DIR . 'module/bettermobile/include/static/installer.php';]]></uninstall_code>
+		</install>
+	</installs>
+	<modules>
+		<module_id>bettermobile</module_id>
+	</modules>
+</product>

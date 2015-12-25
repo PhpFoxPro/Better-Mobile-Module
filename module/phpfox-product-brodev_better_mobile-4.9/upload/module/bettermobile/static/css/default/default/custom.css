@@ -1,0 +1,87 @@
+#mobile_header_better .welcome_quick_link{
+    position: relative;
+}
+#mobile_header_better .welcome_quick_link .welcome_info_holder {
+    display: none;
+    width: 200px;
+    position: absolute;
+    padding-left: 10px;
+    right: -50px;
+    top: 30px;
+    background: #333;
+}
+#mobile_header_better .welcome_quick_link div.info_right {
+    padding: 2px 0px 0px 10px;
+    float: right;
+    width: 50px;
+    text-align: center;
+    line-height: 18px;
+    font-size: 11px;
+}
+#mobile_header_better .welcome_quick_link div.info_left {
+    font-weight: bold;
+    float: left;
+    width: 130px;
+    text-align: left;
+    font-size: 12px;
+    padding-left: 10px;
+    line-height: 20px;
+    color: #cfcfcf;
+}
+#mobile_header_better .welcome_quick_link div.info {
+    margin-bottom: 8px;
+    position: relative;
+    height: 20px;
+    padding: 5px 0;
+    margin: 0;
+    border-bottoM: 1px solid #5f5f5f;
+}
+#mobile_header_better .welcome_quick_link .welcome_info{
+    position: relative;
+}
+#mobile_header_better .welcome_quick_link .welcome_info:after{
+    position: absolute;
+    content:'';
+    display: block;
+    width: 0;
+    height: 0;
+    border: 9px solid transparent;
+    border-bottom-color: #333;
+    top: -18px;
+    left: 27px;
+}
+#mobile_header_better .welcome_quick_link >ul >li>a{
+    font-size: 13px;
+    font-weight: normal;
+}
+#mobile_header_better .welcome_quick_link >ul >li>a:hover{
+    font-size: 13px;
+    font-weight: normal;
+}
+#mobile_header_better #js_global_total_activity_points{
+    color: #FF9900;
+    font-size: 11px;
+    font-weight: bold;
+    text-indent: 5px;
+}
+#mobile_profile_photo_name ul li#js_remove_friend_on_profile a {
+    width: 88px;
+    height: 29px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+    padding: 0 !important;
+    border: 1px solid #C0C0C0;
+    color: #C0C0C0;
+}
+.main_video_div_container .video_width_holder .video_height_holder .image_hover_holder .video_duration{
+    right: 0px!important;
+    bottom:32px;
+}
+.main_video_div_container .video_width_holder .video_height_holder .image_hover_holder {
+    width: 60px;
+}
+.js_box .embedly-embed{
+    width: 100%!important;
+}

@@ -1,0 +1,208 @@
+<product>
+	<data>
+		<product_id>brodev_account_api</product_id>
+		<is_core>0</is_core>
+		<title>Mobile API - Phpfox.Pro</title>
+		<description>By Phpfox.Pro</description>
+		<version>3.13</version>
+		<latest_version></latest_version>
+		<last_check>1402545556</last_check>
+		<is_active>1</is_active>
+		<url>http://www.phpfox.pro/modules/social-app</url>
+		<url_version_check>http://www.phpfox.pro/modules/social-app/version</url_version_check>
+	</data>
+	<installs>
+		<install>
+			<version>1.0</version>
+			<install_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '1.0';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '1.0';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>1.5</version>
+			<install_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '1.5';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '1.5';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>2.0</version>
+			<install_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '2.0';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '2.0';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>2.2</version>
+			<install_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '2.2';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '2.2';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>2.3</version>
+			<install_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '2.3';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '2.3';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>2.4</version>
+			<install_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '2.4';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '2.4';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>2.5</version>
+			<install_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '2.5';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '2.5';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>2.6</version>
+			<install_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '2.6';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '2.6';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>2.7</version>
+			<install_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '2.7';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '2.7';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>2.8</version>
+			<install_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '2.8';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '2.8';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>2.9</version>
+			<install_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '2.9';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '2.9';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>3.0</version>
+			<install_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '3.0';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '3.0';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>3.1</version>
+			<install_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '3.1';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '3.1';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>3.12</version>
+			<install_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '3.12';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '3.12';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>3.13</version>
+			<install_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '3.13';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '3.13';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>3.4</version>
+			<install_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '3.4';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '3.4';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>3.5</version>
+			<install_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '3.5';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '3.5';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>3.6</version>
+			<install_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '3.6';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '3.6';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>3.7</version>
+			<install_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '3.7';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '3.7';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>3.8</version>
+			<install_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '3.8';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '3.8';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></uninstall_code>
+		</install>
+		<install>
+			<version>3.9</version>
+			<install_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '3.9';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></install_code>
+			<uninstall_code><![CDATA[$aModules = array('accountapi');
+$sVersion = '3.9';
+require PHPFOX_DIR . 'module/accountapi/include/static/installer.php';]]></uninstall_code>
+		</install>
+	</installs>
+	<modules>
+		<module_id>accountapi</module_id>
+	</modules>
+</product>
